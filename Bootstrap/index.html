@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Layout</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hero-section {
+        display: flex;
+        align-items: center;
+        padding: 50px 0;
+      }
+    
+      .hero-image {
+        max-width: 50%;
+      }
+      .hero-image img {
+        width: 100%;
+        height: auto;
+      }
+     
+      
+        .highlight {
+            background-color: lightblue;
+            font-weight: 500;
+        }
+        h5.text-muted{
+            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row hero-section">
+        <div class="col-md-6 hero-text">
+          <h5 class="text-muted">LEARNERS AND STUDENTS</h5>
+          <h1><span class="highlight">You</span> can learn anything.</h1>
+          <p>
+            Build a deep, solid understanding in math, science, grammar,
+            history, SAT®, and more.
+          </p>
+          <a style="" href="#" class="btn btn-primary">Learners, start here</a>
+        </div>
+        <div class="col-md-6 hero-image">
+          <img src="image.png" alt="Learning Illustration" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
