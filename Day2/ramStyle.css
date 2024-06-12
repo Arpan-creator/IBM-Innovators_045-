@@ -1,0 +1,11 @@
+/* #ram-box1{
+    height: 411px;
+} */
+
+#ram-bag2{
+    width: 55%;
+}
+#ram-bag2>div>button{
+    background-color: rgb(24,101,242);
+    color: white;
+}
