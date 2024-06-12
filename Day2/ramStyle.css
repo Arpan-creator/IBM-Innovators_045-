@@ -1,11 +1,24 @@
-/* #ram-box1{
-    height: 411px;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 #ram-bag2{
     width: 55%;
 }
 #ram-bag2>div>button{
     background-color: rgb(24,101,242);
     color: white;
+}
+#ram-bag2>h1{
+    font-family: "Noto Serif", serif;
+}
+#ram-table > a>div>div>div:first-child{
+    border: 1px solid black;
+    
+}
+#ram-table-list{
+    margin-left: 40px;
+    width: 75%;
 }
