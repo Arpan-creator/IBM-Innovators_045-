@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Example</title>
+    <style>
+        /* Hide the checkbox */
+        #toggle {
+            display: none;
+        }
+
+        /* Style the span to look like a button */
+        #toggleLabel {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Show the content by default */
+        #content {
+            display: block;
+            margin-top: 20px;
+        }
+
+        /* Hide the content when the checkbox is checked */
+        #toggle:checked + #toggleLabel + #content {
+            display: none;
+        }
+
+        /* Change the label text when the checkbox is checked */
+        #toggle:checked + #toggleLabel::after {
+            content: ' Show';
+        }
+
+        /* Default label text */
+        #toggleLabel::after {
+            content: ' Hide';
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="toggle">
+    <span id="toggleLabel" onclick="this.previousElementSibling.click()"></span>
+    <div id="content">
+        <p>This is the content to show or hide.</p>
+    </div>
+</body>
+</html>
