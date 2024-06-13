@@ -13,89 +13,140 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&display=swap" rel="stylesheet">
 <style>
-    .container-xl{
+    html, body {
+            height: 100%;
+            overflow: scroll;
+        }
+    .ft34_171_container-xl{
         height: auto;
         
         padding: 20px;
     }
 
-    .img>img{
+    .ft_34_171_img>img{
         width: 650px;
     }
     @media (max-width: 992px) {
-        .img>img{
+        .ft_34_171_img>img{
         width: 400px;
     }
     }
     @media (max-width: 570px) {
-        .img>img{
+        .ft_34_171_img>img{
         width: 250px;
     }
     }
 
     
-    .container-xl>div:nth-child(2){
+    .ft34_171_container-xl>div:nth-child(2){
         width: 400px;
 
     }
-    .container-xl>div:nth-child(2)>h1{
+    .ft34_171_container-xl>div:nth-child(2)>h1{
         font-family: 'Adamina';
         font-weight: bold;
     }
-    .container-xl>div:nth-child(2)>p:nth-child(3){
+    .ft34_171_container-xl>div:nth-child(2)>p:nth-child(3){
         font-size: 18px;
         font-weight: 400;
 
     }
-    .container-xl>div:nth-child(2)>button{
+    .ft34_171_container-xl>div:nth-child(2)>button{
        padding:15px 25px;
     }
-    .c2>h1{
+    .ft34_171_c2>h1{
         font-family: 'Adamina';
         font-weight: bold; 
         text-align: center; 
         margin-top: 30px;     
     }
-    .c2{
-        margin-top: 50px;
+    .ft34_171_c2{
+        margin-top: 100px;
     }
-.button{
-    margin-top: 35px;
-    padding:15px 30px ;
+.ft34_171_button{
+    margin-top: 100px;
+    width: 300px;
     transition: transform 2s ;
 }
-.button>button:hover{
+.ft34_171_button>button:hover{
     transform: scale(1.1);
 }
-.c3>h3{
+.ft34_171_c3>h3{
     font-family: "Adamina";
     font-weight:bold ;
     text-align: center;
     margin-top: 40px;
 }
-.c3{
-    margin-top: 40px;
+.ft34_171_c3{
+    margin-top: 100px;
     padding: 60px;
 }
 
-.grid>div img{
-    width: 15vw;
+.ft34_171_c1_grid>div img{
+    width: 100%;
 }
-.grid{
+.ft34_171_c1_grid{
     margin-top: 40px;
-    gap: 35px 30px;
+    gap: 35px;
     place-content: center;
     place-items: center;
     
+
+}
+.ft34_171_c1_grid>div{
+    width: 250px;
+    animation: q1171 10s  infinite;
+
+}
+
+@keyframes q1171 {
+    50%{
+        transform: translateX(1000px);
+    }
+    75%{
+        transform: translateX(2px);
+
+    }
+    100%{
+        
+        transform: translateX(-1000px);
+    }
+    
+}
+.ft34_171_c1_grid2{
+    margin-top: 40px;
+    gap: 35px;
+    place-content: center;
+    place-items: center;
     
 
 }
-.grid>div{
-    width: 270px;
-    
+.ft34_171_c1_grid2>div img{
+    width: 100%;}
+
+.ft34_171_c1_grid2>div{
+    width: 250px;
+    animation: q2171 10s infinite;
 
 }
-.text-dark-emphasis{
+
+@keyframes q2171 {
+    50%{
+        transform: translateX(-1000px);
+    }
+    75%{
+        
+        transform: translateX(2px);
+
+    }
+    100%{
+        transform: translateX(1000px);
+    }
+    
+}
+
+
+.ft34_171_t1{
     padding-bottom: 40px;
 }
 
@@ -105,11 +156,11 @@
 </style>
 </head>
 
-<body>
+<body class="p-0 m-0 border-0 bd-example m-0 border-0 d-flex-wrap">
     
-    <div class="container-xl d-flex justify-content-between flex-wrap">
-        <div class="img"><img src="https://cdn.kastatic.org/images/lohp/math-unicorn-donate-collage.png" alt=""></div>
-        <div class="button">
+    <div class="container-xl ft34_171_container-xl d-flex justify-content-between flex-wrap">
+        <div class="ft_34_171_img"><img src="https://cdn.kastatic.org/images/lohp/math-unicorn-donate-collage.png" alt=""></div>
+        <div class="ft34_171_button">
             <p  class="text-body-tertiary">TOGETHER WE CAN MAKE A DIFFERENCE</p>
             <h1 >Every child deserves the chance to learn.</h1>
             <p >Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit delivering the education they need, and we need your help. You can change the course of a child’s life.</p>
@@ -119,9 +170,9 @@
         </div>
 
     </div>
-    <div class="container-xl c2">
+    <div class="container-xl ft34_171_c2">
         <h1>Join Khan Academy today</h1>
-        <div class="d-grid gap-2 col-6 mx-auto button flex-wrap">
+        <div class="d-grid gap-3 col-6 mx-auto ft34_171_button">
             <button class="btn btn-primary" type="button"><b>Learners</b></button>
             <button class="btn btn-primary" type="button"><b>Teacher</b></button>
             <button class="btn btn-primary" type="button"><b>Parents</b></button>
@@ -129,20 +180,26 @@
           </div>
 
     </div>
-    <div class="container-xxl c3 bg-light">
-        <h3 class="text-dark-emphasis">Key supporters</h3>
+    <div class="bg-light" >
+    <div class="container-xxl ft34_171_c3 ">
+        <h3 class="text-dark-emphasis ft34_171_t1">Key supporters</h3>
         <div class="container gc text-center">
-            <div class="row row-cols-4  grid flex-wrap ">
+            <div class="row row-cols-4  ft34_171_c1_grid grid flex-wrap ">
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/bank-of-america-dark-gray@2x.png" alt=""></div>
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/college-board-dark-gray@2x.png"  alt=""></div>
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/ann-and-john-doerr-dark-gray@2x.png" alt=""></div>
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/gates-foundation-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/lemann-foundation-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/carlos-rodriguez-pastor-dark-gray@2x.png" alt=""></div>
+            </div>
+          </div>
+          <div class="container gc text-center">
+            <div class="row row-cols-4  ft34_171_c1_grid2 grid flex-wrap ">
+              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/lemann-foundation-dark-gray@2x.png    " alt=""></div>
+              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/carlos-rodriguez-pastor-dark-gray@2x.png"  alt=""></div>
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/tata-trusts-dark-gray@2x.png" alt=""></div>
               <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/valhalla-dark-gray@2x.png" alt=""></div>
             </div>
           </div>
+        </div>
 
         </div>
 
