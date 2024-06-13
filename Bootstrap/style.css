@@ -1,0 +1,49 @@
+.hero-section #177 {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .hero-image #11 {
+    max-width: 50%;
+  }
+  .hero-image #11 img {
+    width: 100%;
+    height: auto;
+  }
+  @media only screen and (max-width: 768px) {
+    
+    
+    .hero-image #11 {
+      max-width: 80%;
+    }
+  }
+ 
+  
+    .highlight #hie {
+        background-color: lightblue;
+        font-weight: 500;
+    }
+    h5.text-muted #meo{
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .testimonial-section #line {
+    
+  background-color: 
+  #f5f5f5;
+  padding: 150px;
+ 
+}
+.testimonial #ok {
+  font-style: italic;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.testimonial #ok img {
+  border-radius: 50%;
+  
+
+}
+ 
