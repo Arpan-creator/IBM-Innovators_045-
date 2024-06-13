@@ -1,24 +1,26 @@
 html, body {
     height: 100%;
     overflow: scroll;
+    
 }
 /* Navbar & Footer part by ft34_173 */
 .form-button{
-    padding-bottom: 0%;
+    padding-bottom: 7px;
     height: 50px;
     padding-top: 2.5%;
+    
 }
 .nav{
     /* background-color: aquamarine; */
     padding-top: px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255)
 }
 .navbar-nav{
     /* background-color: chartreuse; */
      padding-left: 9%;
     
 }
-@keyframes bounce {
+/* @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -31,7 +33,7 @@ html, body {
         transform: translateY(-10px);
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     }
-}
+} */
 
 @keyframes appear {
     0%, 20%, 50%, 80%, 100% {
@@ -45,11 +47,11 @@ html, body {
     }
 }
 
-.animated-logo {
+/* .animated-logo {
     animation: bounce 2s infinite;
-}
+} */
 
-.animated-text {
+/* .animated-text {
     position: absolute;
     top: 50%;
     transform: translateX(-.90%);
@@ -58,7 +60,7 @@ html, body {
     font-weight: bold;
     color: #000;
     z-index: 1;
-}
+} */
 
 .logo-container {
     position: relative;
@@ -66,6 +68,9 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    height: 45px;
+    padding-left: px;
+    
 }
 
 /* Footer */
@@ -116,7 +121,6 @@ html, body {
     max-width: 120px;
     margin-right: 10px;
 }
-
 /* ----------------------------------------
 ---------------------------------------- */
 
@@ -308,22 +312,209 @@ html, body {
 }
 @media (max-width : 750px){
     #ram-p2-box{
-        display: block;
+        flex-direction: column;
+        padding: 20px;
     }
-    #ram-p2-box>div{
-        display: block;
+    #ram-p2-box>div:first-child{
+        width: 100%;
+    }
+    #ram-p2-box>div:last-child{
+        width: 100%;
     }
 }
 
+
 /* Himanshu css parts start here */
 
-
+.section-title-ft34_170 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
+}
+.ft34_170-feature {
+    text-align: center;
+    padding: 20px;
+}
+.ft34_170-feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.teacher-section-ft34_170 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.teacher-images-ft34_170 {
+    width: 100%;
+    max-width: 30%;
+    flex: 1;
+}
+.teacher-images-ft34_170 img {
+    width: 100%;
+    height: auto;
+}
+.teacher-quote-ft34_170 {
+    width: 100%;
+    max-width: 50%;
+    flex: 1;
+    text-align: left;
+}
+.teacher-quote-ft34_170 p {
+    font-size: 1.10rem;
+    font-weight: 10;
+}
+.teacher-quote-ft34_170 .name {
+    font-weight: small;
+}
+.teacher-quote-ft34_170 .position {
+    color: gray;
+}
+.btn-teachers-ft34_170 {
+    margin-top: 20px;
+}
+.card-ft34_170 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-ft34_170:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .teacher-section-ft34_170 {
+        flex-direction: column;
+    }
+    .teacher-images-ft34_170,
+    .teacher-quote-ft34_170 {
+        max-width: 100%;
+    }
+}
 
 /* --------------------------------------
 -------------------------------------- */
 /* Adeeba code starts here */
 
-    
+#adeeba-box1{
+    /* border: 1px solid black; */
+    max-width: 1536px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #adeeba-box1>div{
+    /* border: 1px solid blue; */
+    width: 1024px;
+    margin: auto;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #adeeba-box1>div>div:first-child{
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #adeeba-box1>div>div:first-child>p:first-child{
+    color: rgb(24,101,242);
+  }
+  #adeeba-box1>div>div:first-child>h1{
+    margin-bottom: 20px;
+  }
+  #adeeba-box1>div>div:first-child>h1+p{
+    margin-bottom: 20px;
+  }
+  #adeeba-box1>div>div:first-child>button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(24,101,242);
+    color: white;
+    font-weight: 500;
+  }
+  #adeeba-box1>div>div:last-child{
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 100%;
+  }
+  #adeeba-box1>div>div:last-child>img{
+    width: 100%;
+  }
+  #adeeba-box2{
+    /* border: 1px solid black; */
+    max-width: 1536px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    margin-bottom: 20px;
+  }
+  #adeeba-box2>div{
+    /* border: 1px solid black; */
+    width: 900px;
+    margin: auto;
+    height: 60%;
+  }
+  #adeeba-box2>div>div>p{
+    font-size: 30px;
+  }
+  #adeeba-box2>div>div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #adeeba-box2>div>div>div{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #adeeba-box2>div>div:last-child>img{
+    width: 100px;
+  }
+  @media (max-width:1024px){
+    #adeeba-box1{
+      height: auto;
+      display: block;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    #adeeba-box1>div{
+      display: block;
+      width: 90%;
+    }
+    #adeeba-box1>div>div:first-child{
+      width: 80%;
+      margin: auto;
+      margin-bottom: 20px;
+
+    }
+    #adeeba-box1>div>div:last-child{
+      width: 80%;
+      margin: auto;
+    }
+  }
+ 
 /* ------------------------------------
 ------------------------------------ */
 /* /* Aniket css starts here  */
