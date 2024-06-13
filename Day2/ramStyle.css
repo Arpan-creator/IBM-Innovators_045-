@@ -40,6 +40,12 @@
     /* border: 1px solid red; */
     height: 100%;
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ram-p1-box>div>div:first-child>img{
+    width: 100%;
 }
 #ram-bag2{
     /* border: 1px solid red; */
@@ -64,6 +70,7 @@
 }
 #ram-bag2>div>button{
     border-radius: 0.5rem;
+    font-size: 18px;
     border: none;
 }
 
@@ -131,6 +138,8 @@
 #ram-table>a>span{
     color: black;
 }
+ /* hide this content  */
+
 #ram-table-list{
     /* border: 1px solid black; */
     display:  flex;
@@ -145,4 +154,40 @@
 /* -----table hide magic------ */
 #toggle {
     display: none;
+}
+#content{
+    display: block;
+}
+#toggle:checked + #toggleLabel + #content {
+    display: none;
+}
+@media (max-width : 1024px){
+    #ram-bag2>div>button{
+        display: none;
+    }
+    #ram-bag2>div{
+        width: 130px;
+        height: 40px;
+        background-color: rgb(24,101,242);
+        color: white;
+        border-radius: 0.5rem;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #ram-bag2>div::after{
+        content: "Start here";
+    }
+    #ram-table-list{
+        display: block;
+    }
+}
+@media (max-width : 750px){
+    #ram-p2-box{
+        display: block;
+    }
+    #ram-p2-box>div{
+        display: block;
+    }
 }
