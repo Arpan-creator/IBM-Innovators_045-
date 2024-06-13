@@ -338,8 +338,9 @@ html, body {
 }
 @media (max-width: 992px) {
     .ft_34_171_img>img{
-    width: 400px;
+    width: 400px;   
 }
+
 }
 @media (max-width: 570px) {
     .ft_34_171_img>img{
@@ -364,6 +365,9 @@ html, body {
 .ft34_171_container-xl>div:nth-child(2)>button{
    padding:15px 25px;
 }
+.ft34_171_c2{
+    margin-top: 30px;
+}
 .ft34_171_c2>h1{
     font-family: 'Adamina';
     font-weight: bold; 
@@ -371,7 +375,7 @@ html, body {
     margin-top: 30px;     
 }
 .ft34_171_c2{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .ft34_171_button{
 margin-top: 100px;
@@ -390,7 +394,7 @@ text-align: center;
 margin-top: 40px;
 }
 .ft34_171_c3{
-margin-top: 100px;
+margin-top: 0px;
 padding: 60px;
 }
 
@@ -407,7 +411,7 @@ place-items: center;
 }
 .ft34_171_c1_grid>div{
 width: 250px;
-animation: q1171 10s  infinite;
+animation: q1171 15s  infinite;
 
 }
 
@@ -438,7 +442,7 @@ width: 100%;}
 
 .ft34_171_c1_grid2>div{
 width: 250px;
-animation: q2171 10s infinite;
+animation: q2171 15s infinite;
 
 }
 
@@ -482,6 +486,25 @@ left: 160px;
 z-index: -2;
 
 }
+@media(max-width:800px){
+    .ft_34_171_img{
+         margin: auto;
+    }
+}
 
+@media (max-width:800px) {
+    
+    .ft34_171_container-xl>div:nth-child(2){
+        margin: auto;
+    }
+}
+@media (max-width:800px) {
+    .ft34_171_container-xl>div:nth-child(2)>button{
+        margin: auto;
+        display: flex;
+        justify-content: center;        
+     }
+    
+}
 
 /* Aniket css ends here */ 
