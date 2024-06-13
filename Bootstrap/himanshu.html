@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learners Hub Section</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2rem;
+            padding:10px;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        .feature img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .teacher-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .teacher-images {
+            width: 30%;
+        }
+        .teacher-images img {
+            width: 100%;
+            height: auto;
+        }
+        .teacher-quote {
+            width: 50%;
+            text-align: left;
+        }
+        .teacher-quote p {
+            font-size: 1.10rem;
+            font-weight: 10;
+        }
+        .teacher-quote .name {
+            font-weight: small;
+        }
+        .teacher-quote .position {
+            color: gray;
+        }
+        .btn-teachers {
+            margin-top: 20px;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 30;
+    background-color: #f8f9fa;
+}
+
+.card-container {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+   
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0);
+    overflow: hidden;
+    width: 300px;
+    margin:30px;
+    text-align: center;
+    transition: transform 0.2s;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.card h5 {
+    font-size: 1.25em;
+    margin: 20px 0 10px;
+}
+
+.card p {
+    padding: 0 20px 20px;
+    font-size: 1em;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+      @media (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="section-title">
+        Why Learners Hub works
+    </div>
+    <div class="row">
+        <div class="card-container">
+            <div class="card">
+                <img src="https://cdn.kastatic.org/images/lohp/personalized_learning_icon.png" alt="Personalized learning">
+                <h5>Personalized learning</h5>
+                <p>Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.kastatic.org/images/lohp/trusted_content_icon.png" alt="Trusted content">
+                <h5>Trusted content</h5>
+                <p>Created by experts, Learners Hub’s library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, SAT®, and more. It’s all free for learners and teachers.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.kastatic.org/images/lohp/empower_teachers_icon.png" alt="Tools to empower teachers">
+                <h5>Tools to empower teachers</h5>
+                <p>With Learners Hub’s, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row teacher-section">
+        <div class="teacher-images">
+            <img src="https://cdn.kastatic.org/images/lohp/faces_collage_2@2x.png" alt="Teachers">
+        </div>
+        <div class="teacher-quote">
+            <h6>TEACHERS</h6>
+            <p style="font-size:30px;"><b>“I’m finally able to truly differentiate my classroom. This has been priceless for my students’ engagement.”</b></p>
+            <p  style="color:gray"  class="name">Udaya lakshmi Palapala/Middle school Coordinator / Hyderabad,telangana</p>
+            
+            <p>We empower teachers to support their entire classroom. 90% of US teachers who have used Khan Academy have found us effective.</p>
+            <div class="btn-teachers">
+                <a href="#" class="btn btn-primary">Teachers, start here</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
