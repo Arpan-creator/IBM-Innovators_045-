@@ -1,292 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="ramStyle.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Converted Tailwind to HTML & CSS</title>
+
+    <!-- -----ram--------- -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+
+    <!-- -----himanshu-- -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ------aniket---------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-
-    <!-- ------------------ram p1---------------- -->
-    <div class="container mx-auto max-w-screen-2xl mt-5 mb-5">
-        <div class="container mx-auto max-w-screen-lg h-96 flex justify-between">
-            <div id="" class="h-full w-2/5">
-                <img src="https://cdn.kastatic.org/images/lohp/hero_student_collage_IN_1x.png" alt="">
+    <!-- ---------rampravesh work---------- -->
+    <div id="ram-p1-box">
+        <div>
+            <div>
+                <img src="https://cdn.kastatic.org/images/lohp/hero_student_collage_IN_1x.png" alt="Student Collage">
             </div>
-            <div id="ram-bag2" class="h-full">
-                <h1 class="text-3xl mt-16 mb-3">For every student,<br>every classroom. <br> Real results.</h1>
-                <p class="w-4/5 mb-8">We’re a nonprofit with the mission to provide a free, world-class education for
-                    anyone, anywhere.</p>
-                <div class="w-full h-10 grid grid-rows-1 grid-cols-3 gap-2.5">
-                    <button class="rounded-lg">Learners</button>
-                    <button class="rounded-lg">Teachers</button>
-                    <button class="rounded-lg">Parents</button>
+            <div id="ram-bag2">
+                <h1>For every student,<br>every classroom. <br> Real results.</h1>
+                <p>We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+                <div>
+                    <button>Learners</button>
+                    <button>Teachers</button>
+                    <button>Parents</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- -------------ram p2---------------- -->
-    <div class="container mx-auto max-w-screen-2xl">
-        <div id="ram-p2-box" class="container mx-auto max-w-screen-lg flex justify-evenly border rounded-xl">
-            <div class="w-2/5">
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b border-teal-500">
-                    <a href="#" class=" h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png"
-                                    alt="">
+    <!-- -------------------- -->
+    <div id="ram-p2-bag">
+        <div id="ram-p2-box">
+            <div>
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="Math">
                             </div>
-                            <div class="text-xl font-medium font-medium">Math (NCERT)</div>
+                            <div>Math (NCERT)</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list">
                         <ul>
-                            <li class="mt-2">class 1</li>
-                            <li class="mt-2">class 2</li>
-                            <li class="mt-2">class 3</li>
-                            <li class="mt-2">class 4</li>
-                            <li class="mt-2">class 5</li>
-                            <li class="mt-2">class 6</li>
-                            <li class="mt-2">class 7</li>
+                            <li>Class 1</li>
+                            <li>Class 2</li>
+                            <li>Class 3</li>
+                            <li>Class 4</li>
+                            <li>Class 5</li>
+                            <li>Class 6</li>
+                            <li>Class 7</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">class 8</li>
-                            <li class="mt-2">class 9</li>
-                            <li class="mt-2">class 10</li>
-                            <li class="mt-2">class 11</li>
-                            <li class="mt-2">class 12</li>
-                            <li class="mt-2">class Board Prep</li>
+                            <li>Class 8</li>
+                            <li>Class 9</li>
+                            <li>Class 10</li>
+                            <li>Class 11</li>
+                            <li>Class 12</li>
+                            <li>Class Board Prep</li>
                         </ul>
                     </div>
                 </div>
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png"
-                                    alt="">
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="">
                             </div>
-                            <div class="text-xl font-medium">Math foundations</div>
+                            <div>Math foundations</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list">
                         <ul>
-                            <li class="mt-2">class 6</li>
-                            <li class="mt-2">class 7</li>
-                            <li class="mt-2">class 8</li>
+                            <li>Class 6</li>
+                            <li>Class 7</li>
+                            <li>Class 8</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">class 9</li>
-                            <li class="mt-2">class 10</li>
+                            <li>Class 9</li>
+                            <li>Class 10</li>
                         </ul>
                     </div>
                 </div>
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b border-teal-500">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png"
-                                    alt="">
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="">
                             </div>
-                            <div class="text-xl font-medium">Math (Maharashtra)</div>
+                            <div>Math (Maharashtra)</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list" >
                         <ul>
-                            <li class="mt-2">class 1</li>
-                            <li class="mt-2">class 2</li>
-                            <li class="mt-2">class 3</li>
-                            <li class="mt-2">class 4</li>
-                            <li class="mt-2">class 5</li>
+                            <li>Class 1</li>
+                            <li>Class 2</li>
+                            <li>Class 3</li>
+                            <li>Class 4</li>
+                            <li>Class 5</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">class 6</li>
-                            <li class="mt-2">class 7</li>
-                            <li class="mt-2">class 8</li>
-                            <li class="mt-2">class 9</li>
-                            <li class="mt-2">class 10</li>
+                            <li>Class 6</li>
+                            <li>Class 7</li>
+                            <li>Class 8</li>
+                            <li>Class 9</li>
+                            <li>Class 10</li>
                         </ul>
                     </div>
                 </div>
-                <div id="ram-table" class="w-full pt-4 pb-1">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png"
-                                    alt="">
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png" alt="">
                             </div>
-                            <div class="text-xl font-medium">PACE (SOE Punjab)</div>
+                            <div>PACE (SOE Punjab)</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list" >
                         <ul>
-                            <li class="mt-2">Math</li>
-                            <li class="mt-2">Science</li>
+                            <li>Math</li>
+                            <li>Science</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">English</li>
+                            <li>English</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="w-2/5 border-b border-slate-600">
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b border-teal-500">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png"
-                                    alt="">
+            <div>
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img class="rounded-3xl" src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png" alt="Science">
                             </div>
-                            <div class="text-xl font-medium">Science (NCERT)</div>
+                            <div>Science (NCERT)</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list">
                         <ul>
-                            <li class="mt-2">class 9 Phy</li>
-                            <li class="mt-2">class 9 Chem</li>
-                            <li class="mt-2">class 9 Bio</li>
-                            <li class="mt-2">class 10 Phy</li>
-                            <li class="mt-2">class 10 Chem</li>
-                            <li class="mt-2">class 10 Bio</li>
-                            <li class="mt-2">class 11 Phy</li>
+                            <li>Class 9 Phy</li>
+                            <li>Class 9 Chem</li>
+                            <li>Class 9 Bio</li>
+                            <li>Class 10 Phy</li>
+                            <li>Class 10 Chem</li>
+                            <li>Class 10 Bio</li>
+                            <li>Class 11 Phy</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">class 11 Chem</li>
-                            <li class="mt-2">class 11 Bio</li>
-                            <li class="mt-2">class 12 Phy</li>
-                            <li class="mt-2">class 12 Chem</li>
-                            <li class="mt-2">class 12 Bio</li>
-                            <li class="mt-2">Essentials (9-12)</li>
+                            <li>Class 11 Chem</li>
+                            <li>Class 11 Bio</li>
+                            <li>Class 12 Phy</li>
+                            <li>Class 12 Chem</li>
+                            <li>Class 12 Bio</li>
+                            <li>Essentials (9-12)</li>
                         </ul>
                     </div>
                 </div>
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b border-teal-500">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png"
-                                    alt="">
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="">
                             </div>
-                            <div class="text-xl font-medium">All State Boards</div>
+                            <div>All State Boards</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list" >
                         <ul>
-                            <li class="mt-2">Punjab</li>
-                            <li class="mt-2">Uttar Pradesh</li>
-                            <li class="mt-2">Maharashtra</li>
+                            <li>Punjab</li>
+                            <li>Uttar Pradesh</li>
+                            <li>Maharashtra</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">Assam</li>
-                            <li class="mt-2">Odisha</li>
-                            <li class="mt-2">NCERT (Hinglish)</li>
+                            <li>Assam</li>
+                            <li>Odisha</li>
+                            <li>NCERT (Hinglish)</li>
                         </ul>
                     </div>
                 </div>
-                <div id="ram-table" class="w-full pt-4 pb-1 border-b border-teal-500">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/life_skills.png-1a4785-128c.png"
-                                    alt="">
+                <div id="ram-table">
+                        <input type="checkbox" id="toggle">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/life_skills.png-1a4785-128c.png" alt="">
                             </div>
-
-                            <div class="text-xl font-medium">Explore More</div>
+                            
+                            <div>Explore More</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list" >
                         <ul>
-                            <li class="mt-2">Digital SAT</li>
-                            <li class="mt-2">Grammar</li>
-                            <li class="mt-2">Computer Programming</li>
-                            <li class="mt-2">Computer Science</li>
-                            <li class="mt-2">World History</li>
-                            <li class="mt-2">Macroeconomics</li>
-                            <li class="mt-2">Microeconomics</li>
+                            <li>Digital SAT</li>
+                            <li>Grammar</li>
+                            <li>Computer Programming</li>
+                            <li>Computer Science</li>
+                            <li>World History</li>
+                            <li>Macroeconomics</li>
+                            <li>Microeconomics</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">Finance</li>
-                            <li class="mt-2">Personal Finance</li>
-                            <li class="mt-2">Financial Literacy</li>
-                            <li class="mt-2">Social Media Literacy</li>
-                            <li class="mt-2">Al for Education</li>
-                            <li class="mt-2">Wireless Philosophy</li>
-                            <li class="mt-2">Learn to Learn</li>
+                            <li>Finance</li>
+                            <li>Personal Finance</li>
+                            <li>Financial Literacy</li>
+                            <li>Social Media Literacy</li>
+                            <li>Al for Education</li>
+                            <li>Wireless Philosophy</li>
+                            <li>Learn to Learn</li>
                         </ul>
                     </div>
                 </div>
                 <div id="ram-table" class="w-ful pt-4 pb-1">
-                    <a href="#" class="h-14 flex justify-between items-center">
-                        <div class="flex justify-between items-center">
-                            <div class="h-11 w-11 mr-2">
-                                <img class="rounded rounded-3xl"
-                                    src="https://cdn.kastatic.org/genfiles/topic-icons/icons/life_skills.png-1a4785-128c.png"
-                                    alt="">
+                    <a href="#" id="toggleLabel" onclick="this.previousElementSibling.click()">
+                        <div>
+                            <div>
+                                <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/life_skills.png-1a4785-128c.png" alt="">
                             </div>
-                            <div class="text-xl font-medium">Khan for Educators</div>
+                            <div>Khan for Educators</div>
                         </div>
                         <span class="material-symbols-outlined">
-                            keyboard_arrow_down
-                        </span>
+keyboard_arrow_up
+</span>
                     </a>
-                    <div id="ram-table-list" class="flex justify-between pb-2">
+                    <div id="ram-table-list" >
                         <ul>
-                            <li class="mt-2">Khan for Educators <br>
+                            <li>Khan for Educators <br>
                                 (Beginner)</li>
-                            <li class="mt-2">Khan for Educators <br>
+                            <li>Khan for Educators <br>
                                 (Advanced)</li>
                         </ul>
                         <ul>
-                            <li class="mt-2">Khan for Educators
+                            <li>Khan for Educators
                                 (Mentors)</li>
                         </ul>
                     </div>
@@ -294,51 +280,83 @@
             </div>
         </div>
     </div>
-    <!-- RAM tasks end here -->
-    <!-- Himanshu parts start here -->
-     <!-- Aniket parts start here -->
-
-     <div class="container-xl d-flex justify-content-between flex-wrap">
-        <div class="img"><img src="https://cdn.kastatic.org/images/lohp/math-unicorn-donate-collage.png" alt=""></div>
-        <div class="button">
-            <p  class="text-body-tertiary">TOGETHER WE CAN MAKE A DIFFERENCE</p>
-            <h1 >Every child deserves the chance to learn.</h1>
-            <p >Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit delivering the education they need, and we need your help. You can change the course of a child’s life.</p>
-            <button type="button" class="btn btn-primary"><b>Give them the chance</b></button>
-            <div class="underline"></div>
-            
+     <!-- ---------rampravesh work---------- -->
+      <!-- -------himanshu work-------------- -->
+      <div class="container mt-5">
+        <div class="section-title">
+            Why Khan Academy works
         </div>
-
+        <div class="row">
+            <div class="col-md-4 feature">
+                <img src="https://cdn.kastatic.org/images/lohp/personalized_learning_icon.png" alt="Personalized learning">
+                <h5>Personalized learning</h5>
+                <p>Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <img src="https://cdn.kastatic.org/images/lohp/trusted_content_icon.png" alt="Trusted content">
+                <h5>Trusted content</h5>
+                <p>Created by experts, Khan Academy’s library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, SAT®, and more. It’s all free for learners and teachers.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <img src="https://cdn.kastatic.org/images/lohp/empower_teachers_icon.png" alt="Tools to empower teachers">
+                <h5>Tools to empower teachers</h5>
+                <p>With Khan Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
+            </div>
+        </div>
+    
+        <div class="row teacher-section">
+            <div class="teacher-images">
+                <img src="https://cdn.kastatic.org/images/lohp/faces_collage_2@2x.png" alt="Teachers">
+            </div>
+            <div class="teacher-quote">
+                <h6>TEACHERS</h6>
+                <p><b>“I’m finally able to truly differentiate my classroom. This has been priceless for my students’ engagement.”</b></p>
+                <p class="name">Udaya lakshmi Palapala/Middle school Coordinator / Hyderabad,telangana</p>
+                
+                <p>We empower teachers to support their entire classroom. 90% of US teachers who have used Khan Academy have found us effective.</p>
+                <div class="btn-teachers">
+                    <a href="#" class="btn btn-primary">Teachers, start here</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container-xl c2">
-        <h1>Join Khan Academy today</h1>
-        <div class="d-grid gap-2 col-6 mx-auto button flex-wrap">
-            <button class="btn btn-primary" type="button"><b>Learners</b></button>
-            <button class="btn btn-primary" type="button"><b>Teacher</b></button>
-            <button class="btn btn-primary" type="button"><b>Parents</b></button>
-            <button class="btn btn-primary" type="button"><b>Give Today</b></button>
+    <!-- --------------addeeba work------------ -->
+    <div class="container">
+        <div class="row hero-section">
+          <div class="col-md-6 hero-text">
+            <h5 class="text-muted">LEARNERS AND STUDENTS</h5>
+            <h1><span class="highlight">You</span> can learn anything.</h1>
+            <p>
+              Build a deep, solid understanding in math, science, grammar,
+              history, SAT®, and more.
+            </p>
+            <a href="#" class="btn btn-primary">Learners, start here</a>
           </div>
-
-    </div>
-    <div class="container-xxl c3 bg-light">
-        <h3 class="text-dark-emphasis">Key supporters</h3>
-        <div class="container gc text-center">
-            <div class="row row-cols-4  grid flex-wrap ">
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/bank-of-america-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/college-board-dark-gray@2x.png"  alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/ann-and-john-doerr-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/gates-foundation-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/lemann-foundation-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/carlos-rodriguez-pastor-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/tata-trusts-dark-gray@2x.png" alt=""></div>
-              <div class="col"><img src="https://cdn.kastatic.org/images/supporters-logos/valhalla-dark-gray@2x.png" alt=""></div>
+          <div class="col-md-6 hero-image">
+            <img src="image.png" alt="Learning Illustration" />
+          </div>
+        </div>
+        
+      </div>
+      <div class="testimonial-section" style="margin: auto; max-width: 100%;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p class="testimonial">
+                  “When I was a child, I used to fear mathematics. But now, I am in love with mathematics because of Khan Academy.”
+              </p>
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="anjali_image.png" alt="Anjali's Photo">
+                <div class="ml-3 text-left">
+                  <strong>Anjali</strong>
+                  <div>Gurugram, Haryana</div>
+                </div>
+              </div>
             </div>
           </div>
-
         </div>
-    </div>
-
-    
+      </div>
+    <!-- -----------aniket----------- -->
+     
 </body>
-
 </html>
