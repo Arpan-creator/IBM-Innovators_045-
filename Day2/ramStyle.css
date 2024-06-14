@@ -76,12 +76,12 @@
 
 /* ---------------p2--------------- */
 #ram-p2-bag{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     max-width: 1536px;
     margin: auto;
 }
 #ram-p2-box{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     max-width: 1024px;
     display: flex;
     justify-content: space-evenly;
@@ -89,11 +89,11 @@
     margin: auto;
 }
 #ram-p2-box>div:first-child{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 45%;
 }
 #ram-p2-box>div:last-child{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 45%;
 }
 #ram-table{
@@ -185,9 +185,13 @@
 }
 @media (max-width : 750px){
     #ram-p2-box{
-        display: block;
+        flex-direction: column;
+        padding: 20px;
     }
-    #ram-p2-box>div{
-        display: block;
+    #ram-p2-box>div:first-child{
+        width: 100%;
+    }
+    #ram-p2-box>div:last-child{
+        width: 100%;
     }
 }
