@@ -517,6 +517,22 @@ html, body {
 /* ------------------------------------
 ------------------------------------ */
 /* /* Aniket css starts here  */
+.aniket_textbox{
+    margin-left:40PX ;
+}
+.aniket_nav_cont{
+    margin-left: 100px;
+}
+.aniket_nav_cont>li{
+    padding-left: 20px;
+}
+.aniket_nav_cont>li{
+    padding-left: 20px;
+}
+.aniket_logo{
+    padding-left: 190px;
+}
+
 .ft34_171_container-xl{
     height: auto;
     
