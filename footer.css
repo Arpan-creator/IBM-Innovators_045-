@@ -1,0 +1,52 @@
+.footer {
+    padding: 40px 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light text for better contrast */
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p,
+.footer a {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer .footer-bottom {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer .footer-bottom ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer .footer-bottom a {
+    color: #e0e0e0;
+    margin: 0 10px;
+}
+
+.footer .footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-bottom select {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.app-store-buttons img {
+    max-width: 120px;
+    margin-right: 10px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
