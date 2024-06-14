@@ -460,7 +460,6 @@ html, body {
   }
   #adeeba-box2{
     /* border: 1px solid black; */
-    max-width: 1536px;
     height: 400px;
     margin: auto;
     display: flex;
