@@ -1,0 +1,130 @@
+// Variables
+$primary-color: #05073C;
+;
+$secondary-color: #05073C;
+$background-color: #f0f0f0;
+$subscribe-bg: #5142ab;
+$text-color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    margin: 0;
+    font-family: "inter", sans-serif;
+    background-color: $background-color;
+    color: $secondary-color;
+}
+
+// .container2 {
+//     // width: 90%;
+//     max-width: 550px;
+//     // margin:auto ;
+//     margin-left: 300px;
+//     padding: 20px;
+//     background-color: #f0f0f0;
+// }
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.links-section {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid #e5e7eb;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .links {
+            flex: 1;
+
+            h2 {
+                font-size: 1.5rem;
+                color: $primary-color;
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-bottom: 10px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.subscribe-section {
+    background-image: url('subscribeimage.png');
+    background-size: cover;
+    background-position: center;
+    color: $text-color;
+    height: 498.13px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        .subscribe-content {
+            max-width: 50%;
+
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 20px;
+                font-size: 1.25rem;
+            }
+
+            form {
+                display: flex;
+                align-items: center;
+
+                input[type="email"] {
+                    padding: 10px;
+                    border: none;
+                    border-radius: 5px 0 0 5px;
+                    font-size: 1rem;
+                    width: 250px;
+                }
+
+                button {
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 0 5px 5px 0;
+                    background-color: $primary-color;
+                    color: $text-color;
+                    font-size: 1rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: darken($primary-color, 10%);
+                    }
+                }
+            }
+        }
+
+        .subscribe-image {
+            max-width: 50%;
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}
