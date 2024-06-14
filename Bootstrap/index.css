@@ -406,6 +406,7 @@ margin-top: 40px;
 gap: 35px;
 place-content: center;
 place-items: center;
+overflow: hidden;
 
 
 }
@@ -434,6 +435,7 @@ margin-top: 40px;
 gap: 35px;
 place-content: center;
 place-items: center;
+overflow: hidden;
 
 
 }
@@ -443,6 +445,7 @@ width: 100%;}
 .ft34_171_c1_grid2>div{
 width: 250px;
 animation: q2171 15s infinite;
+
 
 }
 
