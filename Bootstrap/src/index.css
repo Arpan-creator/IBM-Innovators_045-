@@ -76,8 +76,9 @@ html, body {
 /* Footer */
 
 .footer {
-    background: #f8f9fa;
     padding: 40px 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light text for better contrast */
 }
 
 .footer h5 {
@@ -87,24 +88,24 @@ html, body {
 
 .footer p,
 .footer a {
-    color: #6c757d;
+    color: #e0e0e0;
     margin-bottom: 10px;
     display: block;
 }
 
-.footer a:hover {
-    text-decoration: underline;
-}
-
 .footer .footer-bottom {
-    border-top: 1px solid #dee2e6;
     padding-top: 20px;
     margin-top: 20px;
     text-align: center;
 }
 
+.footer .footer-bottom ul {
+    padding: 0;
+    list-style-type: none;
+}
+
 .footer .footer-bottom a {
-    color: #6c757d;
+    color: #e0e0e0;
     margin: 0 10px;
 }
 
@@ -121,6 +122,12 @@ html, body {
     max-width: 120px;
     margin-right: 10px;
 }
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
 /* ----------------------------------------
 ---------------------------------------- */
 
@@ -521,7 +528,7 @@ html, body {
     margin-left:40PX ;
 }
 .aniket_nav_cont{
-    margin-left: 80px;
+    margin-left: 30px;
 }
 .aniket_nav_cont>li{
     padding-left: 20px;
