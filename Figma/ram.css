@@ -1,25 +1,25 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 #ram-box1 {
   position: relative;
-  background-image: url(./header.jpg);
+  background-image: url(./src/header.jpg);
   background-size: cover;
   width: 1920px;
   height: 760px;
 }
+
 #ram-navbar {
-  /* border: 1px solid black; */
   max-width: 1320px;
   height: 88px;
-  padding: 21.94px 15px 21.93px 15px;
+  padding: 21.94px 15px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   font-family: Inter;
   font-size: 14.88px;
   font-weight: 400;
@@ -27,52 +27,42 @@
   text-align: left;
 }
 #ram-navbar > div:first-child {
-  /* border: 1px solid black; */
   width: 808.84px;
   height: 44.13px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* #ram-navbar > div:first-child > div {
-  border: 1px solid green;
-} */
 #ram-navbar > div:last-child {
-  /* border: 1px solid black; */
   width: 367.92px;
   height: 44px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* #ram-navbar > div:last-child > div {
-  border: 1px solid black;
-} */
 #ram-navbar > div:last-child > div:last-child {
-  border: 1px solid rgba(5, 7, 60, 1);
+  border: 1px solid rgb(5, 7, 60);
   border-radius: 20px;
   padding: 7px 13px;
 }
+
 #ram-box2 {
   position: absolute;
-  /* border: 1px solid black; */
   width: 1920px;
   top: 185px;
   margin-bottom: 120px;
 }
 #ram-box2 > div {
-  /* border: 1px solid black; */
   width: 1265px;
   height: 750px;
   margin: auto;
   display: flex;
 }
 #ram-box2 > div > div:nth-child(1) {
-  /* border: 1px solid black; */
   width: 550px;
   height: 750px;
   margin-right: 15px;
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 #ram-box2 > div > div:nth-child(1) > p {
   width: 338.78px;
@@ -87,7 +77,6 @@
   width: 454.47px;
   height: 223px;
   margin-top: 16px;
-
   font-family: Inter;
   font-size: 60px;
   font-weight: 600;
@@ -98,27 +87,20 @@
   margin-left: -40px;
 }
 #ram-box2 > div > div:nth-child(2) {
-  /* border: 1px solid black; */
   width: 340px;
   height: 750px;
   margin-right: 20px;
 }
 #ram-box2 > div > div:nth-child(2) > div:first-child {
-  /* border: 1px solid green; */
   width: 340px;
   height: 420px;
   margin-bottom: 20px;
-
-  /* border-radius: 200px 200px 20px 20px; */
 }
 #ram-box2 > div > div:nth-child(2) > div:last-child {
-  /* border: 1px solid green; */
   width: 340px;
   height: 250px;
-  /* border-radius: 20px 20px 200px 200px; */
 }
 #ram-box2 > div > div:nth-child(3) {
-  /* border: 1px solid black; */
   width: 340px;
   height: 750px;
-}
+}/*# sourceMappingURL=ram.css.map */
