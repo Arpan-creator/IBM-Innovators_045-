@@ -36,10 +36,10 @@ body {
     .container {
         display: flex;
         justify-content: space-between;
-
+        
         .links {
             flex: 1;
-
+            
             h2 {
                 font-size: 1.5rem;
                 color: $primary-color;
@@ -61,11 +61,13 @@ body {
 
 .subscribe-section {
     background-image: url('subscribeimage.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     color: $text-color;
     height: 498.13px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,3 +130,4 @@ body {
         }
     }
 }
+
