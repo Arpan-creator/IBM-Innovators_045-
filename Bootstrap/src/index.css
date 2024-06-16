@@ -145,6 +145,12 @@ label {
   background-color: var(--color3);
   cursor: text;
 }
+/* #navbar>div:nth-child(2)>input{
+  border: 1px solid black;
+  background-color: black;
+  width: 100px;
+  z-index: 100;
+} */
 #navbar>div:nth-child(2)>span{
   font-size: 40px;
   margin-right: 10px;
