@@ -609,9 +609,7 @@ input:checked + label span.moon {
 #ram-p1-box button{
   transition: transform 0.1s ease-in;
 }
-#ram-p1-box button:hover{
-  
-}
+
 #heman button{
   border: none;
   padding: 10px 25px;
@@ -905,6 +903,7 @@ input:checked + label span.moon {
   width: 300px;
   height: 250px;
   transition: transform 2s;
+  z-index: 2;
 }
 .ft34_171_button > button:hover {
   transform: scale(1.1);
@@ -973,28 +972,27 @@ input:checked + label span.moon {
     transform: translateX(1000px);
   }
 }
-
-.ft34_171_c2 > img:nth-child(3) {
+.ft34_171_bg > img:nth-child(1) {
   width: 300px;
   height: 350px;
   position: relative;
-  top: -280px;
-  left: 270px;
-  z-index: -2;
+  top: -260px;
+  left: 280px;
+  z-index: 1;
 }
-.ft34_171_c2 > img:nth-child(4) {
+.ft34_171_bg > img:nth-child(2) {
   width: 150px;
   position: relative;
-  top: -150px;
-  left: 300px;
-  z-index: -2;
+  top: -125px;
+  left: 370px;
+  z-index: 1;
 }
-.ft34_171_c2 > img:nth-child(5) {
+.ft34_171_bg > img:nth-child(3) {
   width: 150px;
   position: relative;
-  top: -40px;
-  left: 160px;
-  z-index: -2;
+  top: 10pxpx;
+  left: 220px;
+  z-index: 1;
 }
 @media (max-width: 800px) {
   .ft_34_171_img {
