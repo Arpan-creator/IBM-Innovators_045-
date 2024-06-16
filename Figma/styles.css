@@ -1,0 +1,97 @@
+.aniket_blue_cont {
+  padding-left: 20px;
+  padding-top: 115px;
+
+  p {
+    font-family: Inter;
+    font-size: 29.65px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+  }
+
+  .aniket_flex {
+    gap: 33px;
+    padding-bottom: 50px;
+    padding: 40px;
+
+    > div {
+      margin-top: 30px;
+
+      div {
+        margin-top: 30px;
+
+        > span {
+          font-family: Inter;
+          font-size: 13.45px;
+          font-weight: 400;
+          line-height: 18.2px;
+          text-align: left;
+          color: #FFFFFF;
+        }
+      }
+
+      p {
+        font-family: Inter;
+        font-size: 17.3px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 330px;
+        height: 51px;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .aniket_trip_button,
+  .aniket_trip_button1,
+  .aniket_trip_button2 {
+    width: 62.17px;
+    height: 36.25px;
+    border-radius: 200px;
+    font-family: Inter;
+    font-size: 13.56px;
+    font-weight: 500;
+    line-height: 26.25px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+    color: #05073C;
+    position: relative;
+    top: -450px;
+  }
+
+  .aniket_trip_button {
+    left: 50px;
+  }
+
+  .aniket_trip_button1 {
+    left: 752px;
+  }
+
+  .aniket_trip_button2 {
+    left: 300px;
+  }
+
+  .Aniket_see_all {
+    width: 44.79px;
+    height: 28.13px;
+    font-family: Inter;
+    font-size: 14.3px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    top: -575px;
+    left: 855px;
+    
+  }
+  .Aniket_see_all:hover {
+    text-decoration: underline;
+  }
+}
