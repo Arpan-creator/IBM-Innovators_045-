@@ -56,62 +56,35 @@
          }
 </style>
 </head>
-
-<body class="p-0 m-0 border-0 bd-example m-0 border-0 d-flex-wrap">
-    <!-- Example Code -->
-
-    <div class="bg-light">
-        <div class="container-xxl bg-body-tertiary" >
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarScroll">
-
-                    <ul style="--bs-scroll-height: 100px; ">
-                        <li class="nav-item dropdown" style="list-style-type: none; padding-top: 15px;">
-                            <a class="nav-link dropdown-toggle text-primary "  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                             <b>Courses</b> 
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    
-                    <form class="d-flex aniket_textbox" role="search ">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <a href="#"><span class="material-symbols-outlined material-symbols-outlined_aniket">
-                            manage_search
-                            </span></a>
-                      </form>
-                      <a class="navbar-brand aniket_logo" href="#"><img src="https://logodix.com/logo/1879324.png" alt="" width="40px"><b style="color: rgb(63, 62, 62);">Learning Hub</b></a>
-
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll aniket_nav_cont" style="--bs-scroll-height: 100px;">
-                      <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#"><b>Donate</b></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#"><b>Log In</b></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#"><b>Sign Up</b></a>
-                      </li>
-                    </ul>
-                    
-                  </div>
+<body>
+    <div id="ram-nav">
+        <nav id="navbar">
+            <div>
+                <div>
+                    <img src="https://logodix.com/logo/1879324.png" alt="logo">
                 </div>
-              </nav>
-              
+                <span>Learning Hub</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </div>
+            <div>
+                <div>Login</div>
+                <div>Sign up</div>
+                <input type="checkbox" id="darkmode-toggle" />
+                <label for="darkmode-toggle">
+                    <span class="sun material-symbols-outlined">wb_sunny</span>
+                    <span class="moon material-symbols-outlined">dark_mode</span>
+                </label>
+            </div>
+        </nav>
     </div>
-    
-</div>
-    <!-- End Example Code -->
     <!-- ---------rampravesh work---------- -->
+    <div class="background"></div>
+
+
     <div id="ram-p1-box">
         <div>
             <div>
@@ -142,7 +115,7 @@
                             </div>
                             <div>Math (NCERT)</div>
                         </div>
-                        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+                        <span id="spiral" class="material-symbols-outlined">keyboard_arrow_up</span>
                     </a>
                     <!-- -------magic------- -->
                     <div id="content">
@@ -379,10 +352,35 @@
         </div>
     </div>
     <!-- ---------rampravesh work---------- -->
-
     <!-- Himanshu code starts here  -->
+    <section class="heman-box">
+        <h2>Why Learners Hub works</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://cdn.kastatic.org/images/lohp/personalized_learning_icon.png" alt="Personalized learning">
+                <h3>Personalized learning</h3>
+                <p>Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
+            </div>
+            <div class="feature">
+                <img src="https://cdn.kastatic.org/images/lohp/trusted_content_icon.png" alt="Trusted content">
+                <h3>Trusted content</h3>
+                <p>Created by experts, Khan Academy’s library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, SAT®, and more. It’s all free for learners and teachers.</p>
+            </div>
+            <div class="feature">
+                <img src="https://cdn.kastatic.org/images/lohp/empower_teachers_icon.png" alt="Tools to empower teachers">
+                <h3>Tools to empower teachers</h3>
+                <p>With Khan Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
     <div class="container mt-5">
-        <div class="section-title-ft34_170">
+        <!-- <div class="section-title-ft34_170">
             Why Learners Hub works
         </div>
         <div class="row">
@@ -422,22 +420,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row teacher-section-ft34_170">
             <div class="teacher-images-ft34_170">
                 <img src="https://cdn.kastatic.org/images/lohp/faces_collage_2@2x.png" alt="Teachers">
             </div>
-            <div class="teacher-quote-ft34_170">
-                <h6>TEACHERS</h6>
-                <p style="font-size:30px;"><b>“I’m finally able to truly differentiate my classroom. This has been
+            <div id="heman" class="teacher-quote-ft34_170">
+                <h6 id="he90">TEACHERS</h6>
+                <p id="he91" style="font-size:30px;"><b>“I’m finally able to truly differentiate my classroom. This has been
                         priceless for my students’ engagement.”</b></p>
-                <p style="color:gray" class="name">Udaya lakshmi Palapala/Middle school Coordinator /
+                <p id="he92" class="name">Udaya lakshmi Palapala/Middle school Coordinator /
                     Hyderabad,telangana</p>
-                <p><b>We empower teachers to support their entire classroom. 90% of US teachers who have used Learners
+                <p id="he93"><b>We empower teachers to support their entire classroom. 90% of US teachers who have used Learners
                         Hub have found us effective.</b></p>
-                <div class="btn-teachers-ft34_170">
-                    <a href="#" class="btn btn-primary">Teachers, start here</a>
-                </div>
+                <button>Teachers, start here</button>
             </div>
         </div>
     </div>
@@ -445,7 +441,7 @@
     <!-- Adeeba code starts here  -->
     <div id="adeeba-box1">
         <div>
-            <div>
+            <div id="ram-p1-box">
                 <p>LEARNERS AND STUDENTS</p>
                 <h1>You can learn anything.</h1>
                 <p>Build a deep, solid understanding in math, science, grammar,
@@ -462,7 +458,7 @@
             <div>
                 <p>
                     “When I was a child, I used to fear mathematics. But now, I am in love with mathematics because of
-                    Khan Academy.”
+                    Learners Hub.”
                 </p>
             </div>
             <div>
@@ -482,9 +478,9 @@
         <div class="ft_34_171_img"><img src="https://cdn.kastatic.org/images/lohp/math-unicorn-donate-collage.png"
                 alt=""></div>
         <div class="ft34_171_button">
-            <p class="text-body-tertiary">TOGETHER WE CAN MAKE A DIFFERENCE</p>
-            <h1>Every child deserves the chance to learn.</h1>
-            <p>Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit
+            <p id="aniket90" class="text-body-tertiary">TOGETHER WE CAN MAKE A DIFFERENCE</p>
+            <h1 id="aniket90">Every child deserves the chance to learn.</h1>
+            <p id="aniket91">Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit
                 delivering the education they need, and we need your help. You can change the course of a child’s life.
             </p>
             <button type="button" class="btn btn-primary"><b>Give them the chance</b></button>
@@ -494,14 +490,15 @@
 
     </div>
     <div class="container-xl ft34_171_c2">
-        <h1>Join Khan Academy today</h1>
+        <h1 id="aniket90">Join Learners Hub today</h1>
         <div class="d-grid gap-3 col-6 mx-auto ft34_171_button">
+            <div id="img1"></div>
             <button class="btn btn-primary" type="button"><b>Learners</b></button>
             <button class="btn btn-primary" type="button"><b>Teacher</b></button>
             <button class="btn btn-primary" type="button"><b>Parents</b></button>
             <button class="btn btn-primary" type="button"><b>Give Today</b></button>
         </div>
-        <img src="https://23.files.edl.io/d609/18/12/03/223037-4dbec8d3-9799-4a57-97a3-1744a573abcd.png" alt=""
+        <img id="img1" src="https://23.files.edl.io/d609/18/12/03/223037-4dbec8d3-9799-4a57-97a3-1744a573abcd.png" alt=""
             class="ft34_171_bg">
         <img src="https://www.pinclipart.com/picdir/big/563-5636534_clipart-notebook-and-pencil-notepad-and-pencil-clipart.png"
             alt="">
@@ -635,6 +632,17 @@
             </div>
         </div>
     </footer>
+    <script>
+       var darkmodeToggle = document.getElementById('darkmode-toggle');
+
+darkmodeToggle.addEventListener('change', function() {
+    if (this.checked) {
+        document.body.classList.add('dark-theme');
+    } else {
+        document.body.classList.remove('dark-theme');
+    }
+});
+    </script>
 
 </body>
 
