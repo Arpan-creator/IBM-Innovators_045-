@@ -9,7 +9,7 @@
   position: relative;
   background-image: url(./src/header.jpg);
   background-size: cover;
-  width: 1920px;
+  width: 100vw;
   height: 760px;
   margin: auto;
   margin-bottom: 200px;
@@ -54,7 +54,7 @@
 
 #ram-box2 {
   position: absolute;
-  width: 1920px;
+  width: 100vw;
   top: 185px;
   margin-bottom: 120px;
 
@@ -214,7 +214,7 @@ body {
 }
 
 .customer-reviews {
-  width: 1920px;
+  width: 100vw;
   height: 716.5px;
   top: 2986.58px;
   padding: 120px 300px 120px 300px;
