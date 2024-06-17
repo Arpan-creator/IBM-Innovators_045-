@@ -191,13 +191,17 @@ body {
 }
 
 /* Customer Reviews Section */
-#sec {
-  margin-top: 50px;
+#sec h2 {
+  margin-top: 100px;
 }
 
 .customer-reviews {
-  width: 1320px;
-  height: 476.5px;
+  width: 1920px;
+  height: 716.5px;
+  top: 2986.58px;
+  padding: 120px 300px 120px 300px;
+  gap: 0px;
+  opacity: 0px;
   top: 120px;
   left: 300px;
   gap: 0px;
@@ -224,7 +228,7 @@ body {
 #black {
   width: 740px;
   height: 215.5px;
-  margin-top: 105px;
+  margin-top: 60px;
   margin-left: 290px;
   padding: 0px 5.89px 6.5px 6.09px;
   gap: 0px;
@@ -233,13 +237,32 @@ body {
   font-size: 18px;
   font-style: italic;
   color: #555;
-  margin-bottom: 30px;
+}
+
+#black img {
+  margin-bottom: 60px;
+}
+
+#black p {
+  width: 728.02px;
+  height: 101px;
+  top: 108px;
+  left: 6.09px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: center;
+  padding-bottom: 6px;
 }
 
 .reviews {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
 }
 .reviews .review {
   display: flex;
@@ -248,7 +271,7 @@ body {
   border-radius: 200px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 220px;
+  width: 320px;
 }
 .reviews .review img {
   border-radius: 50%;
@@ -280,6 +303,7 @@ body {
   width: 46.93px;
   height: 55px;
   margin-top: 123px;
+  margin-bottom: 30px;
   left: 6.6px;
   gap: 0px;
   opacity: 0px;
@@ -322,9 +346,9 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 390px;
-  width: 900px;
+  width: 1290px;
   margin: auto;
-  margin-top: -100px;
+  margin: auto;
 }
 .activities .activity {
   margin-top: 0;
@@ -539,7 +563,7 @@ body {
   border: none;
   color: #05073C;
   position: relative;
-  top: -510px;
+  top: -485px;
   left: 16px;
 }
 .aniket_blue_cont .aniket_trip_button1 {
@@ -555,7 +579,7 @@ body {
   border: none;
   color: #05073C;
   position: relative;
-  top: -510px;
+  top: -485px;
   left: 722px;
 }
 .aniket_blue_cont .aniket_trip_button2 {
@@ -571,7 +595,7 @@ body {
   border: none;
   color: #05073C;
   position: relative;
-  top: -510px;
+  top: -485px;
   left: 270px;
 }
 .aniket_blue_cont .Aniket_see_all {
@@ -584,7 +608,7 @@ body {
   text-align: left;
   color: #FFFFFF;
   position: relative;
-  top: -610px;
+  top: -575px;
   left: 855px;
 }
 .aniket_blue_cont .Aniket_see_all:hover {
