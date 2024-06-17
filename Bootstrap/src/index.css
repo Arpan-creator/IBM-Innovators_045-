@@ -977,6 +977,30 @@ input:checked + label span.moon {
   100% {
     transform: translateX(1000px);
   }
+
+
+}
+@media (max-width:800px) {
+  .ft34_171_c1_grid > div {
+    animation: q2171 10s infinite;
+  }
+}
+@media (max-width:800px) {
+  .ft34_171_c1_grid2 > div {
+    animation: q2171 10s infinite;
+  }
+  
+}
+@media (max-width:450px) {
+  .ft34_171_c1_grid > div {
+    animation: q2171 5s infinite;
+  }
+}
+@media (max-width:450px) {
+  .ft34_171_c1_grid2 > div {
+    animation: q2171 5s infinite;
+  }
+  
 }
 .ft34_171_bg > img:nth-child(1) {
   width: 300px;
