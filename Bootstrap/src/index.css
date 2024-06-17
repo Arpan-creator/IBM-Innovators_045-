@@ -140,7 +140,7 @@ label {
   height: 60%;
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background-color: var(--color3);
   cursor: text;
