@@ -170,13 +170,21 @@ body {
   color: #777;
 }
 
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
 .main-container {
   width: 1320px;
   height: 476.5px;
   top: 120px;
   left: 300px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,8 +200,8 @@ body {
   height: 476.5px;
   top: 120px;
   left: 300px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   box-sizing: border-box;
   text-align: center;
   background-color: #fdece4;
@@ -202,8 +210,8 @@ body {
 .customer-reviews h2 {
   width: 271.5px;
   height: 45px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 29.53px;
   font-weight: 700;
@@ -218,10 +226,9 @@ body {
   height: 215.5px;
   margin-top: 105px;
   margin-left: 290px;
-  padding: 0 5.89px 6.5px 6.09px;
-  gap: 0;
-  opacity: 0;
-  border: 2px solid green;
+  padding: 0px 5.89px 6.5px 6.09px;
+  gap: 0px;
+  opacity: 0px;
   box-sizing: border-box;
   font-size: 18px;
   font-style: italic;
@@ -237,7 +244,7 @@ body {
 .reviews .review {
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0px 10px;
   border-radius: 200px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -274,8 +281,8 @@ body {
   height: 55px;
   margin-top: 123px;
   left: 6.6px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   background: #eb662b;
 }
 .stats .stat p {
@@ -283,8 +290,8 @@ body {
   height: 56px;
   top: 3914.08px;
   margin-left: 50px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 37.66px;
   font-weight: 700;
@@ -297,8 +304,8 @@ body {
   height: 22.5px;
   top: 3970.08px;
   left: 729.8px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 14.65px;
   font-weight: 400;
@@ -325,7 +332,7 @@ body {
   height: 390.13px;
   top: 4112.58px;
   left: 315px;
-  gap: 0;
+  gap: 0px;
   opacity: 0.5;
   background: linear-gradient(180deg, rgba(5, 7, 60, 0) 0%, #05073c 100%);
   border-radius: 8px;
@@ -335,8 +342,8 @@ body {
   height: 28.13px;
   top: 4172.58px;
   left: 375px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 14.65px;
   font-weight: 400;
@@ -349,8 +356,8 @@ body {
   height: 84px;
   top: 4203.7px;
   left: 375px;
-  gap: 0;
-  opacity: 0;
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 30px;
   font-weight: 700;
@@ -368,14 +375,11 @@ body {
   margin-bottom: 150px;
   left: 375px;
   padding: 17px 35.8px 27px 36px;
-  gap: 0;
+  gap: 0px;
   border-radius: 12px;
-  opacity: 0;
+  opacity: 0px;
   background: #ffffff;
   cursor: pointer;
-}
-.activities .activity button:hover {
-  background-color: #ff5a3c;
 }
 
 body {
@@ -478,4 +482,110 @@ body {
 }
 .adeeba-subscribe-section .adeeba-container .adeeba-subscribe-content form button:hover {
   background-color: #01020d;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.aniket_blue_cont {
+  padding-left: 20px;
+  padding-top: 115px;
+}
+.aniket_blue_cont p {
+  font-family: Inter;
+  font-size: 29.65px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+}
+.aniket_blue_cont .aniket_flex {
+  gap: 33px;
+  padding-bottom: 105px;
+}
+.aniket_blue_cont .aniket_flex > div {
+  margin-top: 30px;
+}
+.aniket_blue_cont .aniket_flex > div div > span {
+  font-family: Inter;
+  font-size: 13.45px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.aniket_blue_cont .aniket_flex > div div {
+  margin-top: 30px;
+}
+.aniket_blue_cont .aniket_flex > div p {
+  font-family: Inter;
+  font-size: 17.3px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 330px;
+  height: 51px;
+  margin-top: 15px;
+}
+.aniket_blue_cont .aniket_trip_button {
+  width: 62.17px;
+  height: 36.25px;
+  border-radius: 200px;
+  font-family: Inter;
+  font-size: 13.56px;
+  font-weight: 500;
+  line-height: 26.25px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: none;
+  color: #05073C;
+  position: relative;
+  top: -485px;
+  left: 16px;
+}
+.aniket_blue_cont .aniket_trip_button1 {
+  width: 62.17px;
+  height: 36.25px;
+  border-radius: 200px;
+  font-family: Inter;
+  font-size: 13.56px;
+  font-weight: 500;
+  line-height: 26.25px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: none;
+  color: #05073C;
+  position: relative;
+  top: -485px;
+  left: 722px;
+}
+.aniket_blue_cont .aniket_trip_button2 {
+  width: 62.17px;
+  height: 36.25px;
+  border-radius: 200px;
+  font-family: Inter;
+  font-size: 13.56px;
+  font-weight: 500;
+  line-height: 26.25px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: none;
+  color: #05073C;
+  position: relative;
+  top: -485px;
+  left: 270px;
+}
+.aniket_blue_cont .Aniket_see_all {
+  width: 44.79px;
+  height: 28.13px;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #FFFFFF;
+  position: relative;
+  top: -575px;
+  left: 855px;
+}
+
+/*# sourceMappingURL=index.css.map */
