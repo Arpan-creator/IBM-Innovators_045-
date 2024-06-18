@@ -11,8 +11,8 @@ body {
     height: 476.5px;
     top: 120px;
     left: 300px;
-    gap: 0px;
-    opacity: 0px;
+    gap: 0;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,8 +28,8 @@ body {
     height: 476.5px;
     top: 120px;
     left: 300px;
-    gap: 0px;
-    opacity: 0px;
+    gap: 0;
+    opacity: 0;
     box-sizing: border-box;
     text-align: center;
     background-color: #fdece4;
@@ -38,8 +38,8 @@ body {
     h2 {
       width: 271.5px;
       height: 45px;
-      gap: 0px;
-      opacity: 0px;
+      gap: 0;
+      opacity: 0;
       font-family: Inter;
       font-size: 29.53px;
       font-weight: 700;
@@ -55,9 +55,10 @@ body {
     height: 215.5px;
     margin-top: 105px;
     margin-left: 290px;
-    padding: 0px 5.89px 6.5px 6.09px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 0 5.89px 6.5px 6.09px;
+    gap: 0;
+    opacity: 0;
+    border: 2px solid green;
     box-sizing: border-box;
     font-size: 18px;
     font-style: italic;
@@ -73,7 +74,7 @@ body {
     .review {
       display: flex;
       align-items: center;
-      padding: 0px 10px;
+      padding: 0 10px;
       border-radius: 200px;
       background-color: #fff;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -116,8 +117,8 @@ body {
         height: 55px;
         margin-top: 123px;
         left: 6.6px;
-        gap: 0px;
-        opacity: 0px;
+        gap: 0;
+        opacity: 0;
         background: #eb662b;
       }
   
@@ -126,8 +127,8 @@ body {
         height: 56px;
         top: 3914.08px;
         margin-left: 50px;
-        gap: 0px;
-        opacity: 0px;
+        gap: 0;
+        opacity: 0;
         font-family: Inter;
         font-size: 37.66px;
         font-weight: 700;
@@ -141,8 +142,8 @@ body {
         height: 22.5px;
         top: 3970.08px;
         left: 729.8px;
-        gap: 0px;
-        opacity: 0px;
+        gap: 0;
+        opacity: 0;
         font-family: Inter;
         font-size: 14.65px;
         font-weight: 400;
@@ -171,7 +172,7 @@ body {
       height: 390.13px;
       top: 4112.58px;
       left: 315px;
-      gap: 0px;
+      gap: 0;
       opacity: 0.5;
       background: linear-gradient(180deg, rgba(5, 7, 60, 0) 0%, #05073c 100%);
       border-radius: 8px;
@@ -181,8 +182,8 @@ body {
         height: 28.13px;
         top: 4172.58px;
         left: 375px;
-        gap: 0px;
-        opacity: 0px;
+        gap: 0;
+        opacity: 0;
         font-family: Inter;
         font-size: 14.65px;
         font-weight: 400;
@@ -196,8 +197,8 @@ body {
         height: 84px;
         top: 4203.7px;
         left: 375px;
-        gap: 0px;
-        opacity: 0px;
+        gap: 0;
+        opacity: 0;
         font-family: Inter;
         font-size: 30px;
         font-weight: 700;
@@ -216,9 +217,9 @@ body {
         margin-bottom: 150px;
         left: 375px;
         padding: 17px 35.8px 27px 36px;
-        gap: 0px;
+        gap: 0;
         border-radius: 12px;
-        opacity: 0px;
+        opacity: 0;
         background: #ffffff;
         cursor: pointer;
   
