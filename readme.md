@@ -89,6 +89,9 @@ Provide user credentials for autheticated pages
 List and provide a brief overview of the technologies used in the project.
 
 - HTML
+
 - CSS
 - SASS
 - Bootstrap
+- Below there is a image of project :
+- ![image](https://github.com/user-attachments/assets/5d1bd9db-b426-4298-adc1-db82f6d13a85)
